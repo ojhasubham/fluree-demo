@@ -1,0 +1,11 @@
+[
+	{
+		"_id": "_rule$seller",
+		"id": "sellerAccess",
+		"doc": "Allows a seller to Edit product",
+		"collection": "product",
+		"predicates": ["*"],
+		"fns": [["_fn/name", "true"]],
+		"ops": ["transact"]
+	}
+]
